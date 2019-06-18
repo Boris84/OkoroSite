@@ -9,3 +9,55 @@ h1 {
 	font-weight: bold;
 	font-family: 'Shadows Into Light', cursive;
 }
+
+.container {
+	border: solid 5px black;
+	background-color: orange;
+
+
+
+}
+
+.row {	
+	background-color: blue;
+	border: solid 5px blue;
+
+
+}
+
+.col {
+	font-family: 'Roboto', cursive;
+	background-color: black;
+    border: solid 5px green;
+	font-weight: bold;
+	color: white;
+}
+
+.nav-link {
+	font-weight: bold;
+		font-family: 'Roboto', cursive;
+
+}
+
+.dropdown-item {
+	font-family: 'Roboto', cursive;
+}
+
+.dropdown-item:hover {
+	font-weight: bold;
+}
+
+
+
+.dropdown-menu {
+	border: solid 1px black;
+
+}
+
+
+.dropdown-divider {	
+	border-top: solid 1px black;
+}
+
+
+

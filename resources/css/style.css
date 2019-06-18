@@ -13,25 +13,15 @@ h1 {
 
 
 .container {
-	border: solid 5px black;
-	background-color: orange;
-
 }
 
-.row {	
-	background-color: blue;
-	border: solid 5px blue;
-
-
+.row {
 }
 
 .col {
-	font-family: 'Ubuntu', sans-serif;
-	background-color: black;
-    border: solid 5px green;
-	font-weight: bold;
-	color: white;
 }
+
+
 
 .nav-link {
 	font-weight: bold;
@@ -46,7 +36,7 @@ h1 {
 
 .dropdown-item:hover {
    color: blue;	
-   transition: 300ms ease-in-out;
+   transition: 250ms ease-in-out;
 }
 
 

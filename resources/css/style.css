@@ -7,7 +7,7 @@ h1 {
 	text-align: center;
 	font-size: 3.5rem;
 	font-weight: bold;
-	letter-spacing: 5px;
+	letter-spacing: 25px;
 	font-family: 'Shadows Into Light', cursive;
 }
 
@@ -24,6 +24,20 @@ h1 {
 	font-weight: bold;
 	font-family: 'Ubuntu', sans-serif;
 }
+
+#navbarDropdown , #login {
+	text-decoration: underline;
+}
+
+
+#navbarDropdown:hover {
+	text-decoration: none;
+}
+
+#login:hover {
+	text-decoration: none;
+} 
+
 
 .dropdown-item {
     font-weight: bold;
@@ -62,4 +76,3 @@ h2 {
 h3 {
 	text-align: center;
 }
-

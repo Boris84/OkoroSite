@@ -62,14 +62,14 @@ h1 {
 
 a {
 	color: black;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 1.1rem;
+	text-decoration: underline;
 	font-family: 'Ubuntu', sans-serif;
 }
 
 a:hover {
 	transition: all 220ms ease-in-out;
-	text-decoration: none;
 }
 
 nav {
@@ -77,9 +77,10 @@ nav {
 }
 
 .current {
+	color: blue;
 	font-size: 1.1rem;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
 
 }

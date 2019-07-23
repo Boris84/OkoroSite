@@ -69,6 +69,7 @@ a {
 }
 
 a:hover {
+	color: black;
 	transition: all 220ms ease-in-out;
 }
 

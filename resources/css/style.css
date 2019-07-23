@@ -4,7 +4,6 @@ html {
 
 h1 {
 	margin: 30px 0px;
-
 	text-align: center;
 	font-size: 3.5rem;
 	font-weight: bold;
@@ -74,8 +73,8 @@ a:hover {
 	text-decoration: none;
 }
 
-.container {
-    margin-top: 40px;
+nav {
+	margin-bottom: 30px;
 }
 
 .current {

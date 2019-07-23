@@ -1,0 +1,95 @@
+html {
+	font-size: 14px;
+}
+
+h1 {
+	margin: 20px 0px;
+	text-align: center;
+	font-size: 3.1rem;
+	font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+.container {
+}
+
+.row {
+}
+
+.col {
+}
+
+.nav-link {
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#navbarDropdown , #login {
+	text-decoration: underline;
+}
+
+
+#navbarDropdown:hover {
+	text-decoration: none;
+}
+
+#login:hover {
+	text-decoration: none;
+} 
+
+
+.dropdown-item {
+    font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+.form-control , #search {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+h2 {
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+a {
+	color: black;
+	font-weight: normal;
+	font-size: 1rem;
+	text-decoration: underline;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a:hover {
+	color: black;
+	transition: all 220ms ease-in-out;
+}
+
+nav {
+	margin-bottom: 30px;
+
+}
+
+.current {
+	color: blue;
+	font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+

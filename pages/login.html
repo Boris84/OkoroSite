@@ -13,53 +13,120 @@
 <body>
 
 
+<h1>Fitness<span style="color:blue">Atoz</span></h1>
+
+ 
+             <!-- nav bar -->
 
 <div class="container">
   <div class="row">
     <div class="col">
-      
-
- 
-   <h1>Fitness<span style="color:blue">Atoz</span></h1>
- 
-             <!-- nav bar -->
 <nav>
   <center>
     <a href="../index.html">Home</a> | <span class="current">Login</span> | <a href="about.html">About</a> | <a href="pt.html">Our pt's</a> | <a href="class.html">Classes</a> | <a href="price.html">Prices</a> | <a href="book.html">Book a session</a> | <a href="contact.html">Contact</a>
   </center>
 </nav>
-
-
-   </div>
-  </div>
- </div>
-
-
-
-<div class="container">
-  <div class="row">
-  	<div class="col">
-         <center>
-           <form action="index.html" method="get" >
-            <span>
-              <h2 style="color:blue">Log In</h2>
+<div class="jumbotron">
+         <form action="index.html" method="get" >
+            <div class="main-container">
+    
+      <!-- New Visitors -->
+              
+              <span class="form">
+                  <h2>Sign up</h2>
                 <div>
-                  <label for="E-mail">*e-mail or username</label>
+                  <label for="Firstname">*Firstname</label>
+                </div>
+                  <input type="text" placeholder="first name">
+                <div>
+                  <label for="Lastname">*Lastname</label>
+                </div>
+                  <input type="text" placeholder="last name">
+
+
+              <section class="location">
+                <div id="address">
+                  <label for="address">*Address</label>
+                </div>
+                  <input type="text" placeholder="line 1"><br>                  
+                  <input type="text" placeholder="line 2"><br>
+                  <input type="text" placeholder="line 3">
+              </section>
+
+                <div>
+                  <label for="E-mail">*E-mail</label>
+                </div>
+                  <input type="text" placeholder="e-mail">
+                <div>
+                  <label for="Create-password">*Create Password</label>
+                </div>
+                <div>
+                  <input type="password" placeholder="password">
+                </div>
+                  <input type="password" placeholder="confirm password"><br>
+              </span>
+            <br>
+   
+      <!-- Existing Users -->
+
+              <span class="form">
+                  <h2>Login In</h2>
+                <div>
+                  <label for="E-mail">*E-mail or Username</label>
                 </div>
                   <input type="text" placeholder="e-mail or username">
                 <div>
-                  <label for="password">*password</label>
+                  <label for="password">*Password</label>
                 </div>
                   <input type="password" placeholder="password">
-              </span>            
+              </span>              
+            </div>
           </form>
-       </center>
-   </div>
- </div>
+        </div>
+
+    </div>
+  </div>
 </div>
 
 
 
+
+
+<style>
+ 
+  body { 
+}
+
+h2 {
+  text-align: left;
+  font-family: consolas, serif;
+  margin-bottom: 40px;
+}
+
+.jumbotron {
+  border: solid 2px blue;
+}
+
+.main-container {
+  justify-content: space-evenly;
+  margin: auto;
+  display: flex;
+}
+
+label {
+  font-size: 11px;
+  font-family: consolas, serif;
+}
+
+input {
+  margin: 10px 0px 10px 0px;
+}
+
+.form {
+  font-family: consolas, serif;
+} 
+
+</style>
 
 
 
